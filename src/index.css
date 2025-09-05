@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code{
+    font-family:sorce-code-pro,Menlo,Monaco,consolas,'Courier New' ,monospace;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:lightblue;
+    padding: 12px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav input{
+    width: 250px;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+nav button{
+    padding: 8px 14px;
+    width:70px;
+    height:38px;
+    background-color:blue;
+    border:none;
+    border-radius:4px;
+    color: white;
+    font-size: 15px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+nav button:hover {
+  background-color: darkblue;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.head {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 20px 0;
+}
+.categoryBtn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+.categoryBtn button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.categoryBtn button:hover {
+  background-color: #e63946;
+  transform: scale(1.05);
+}

@@ -1,0 +1,13 @@
+import React from "react";
+import './index.css'
+
+import Newsapp from './Components/Newsapp'
+function App(){
+  return(
+    <>
+    <Newsapp/>
+    </>
+  )
+}
+
+export default App;
