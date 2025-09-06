@@ -49,7 +49,11 @@ const Newsapp = () => {
         <Card />
       </div>
     </div>
-  )
+
+
+)
 }
+
+
 
 export default Newsapp
