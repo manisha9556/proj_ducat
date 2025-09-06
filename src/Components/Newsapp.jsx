@@ -48,6 +48,8 @@ const Newsapp = () => {
       <div>
         <Card />
       </div>
+
+      
     </div>
 
 
